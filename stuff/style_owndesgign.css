@@ -1,0 +1,67 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+#cover{
+	width: 600px;
+	margin-left:0;
+	margin-top: 0;
+	
+}
+
+header figure{
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+h1{
+	border: 1px solid green;
+	color: white;
+	size: 30px;
+	background: green;
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 0;
+}
+
+#image{
+	margin-right: 0;
+}
+
+#image{
+	width: 100px;
+}
+
+#logo,
+aside {
+    width: 200px;
+    margin-right: 20px;
+}
+
+#links{
+	list-style: none;
+}
+
+li{
+	margin-bottom: 20px;
+}
+
+aside{
+	float: left;
+	margin-right: -400px;
+}
+
+main{
+	margin-left: -300px;
+	float: right;
+	background-image: url("background_main.jpeg");
+	margin-left: -200px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}

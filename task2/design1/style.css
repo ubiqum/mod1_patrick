@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+    /*Welche Schriftart?*/
+}
+
+
+/* Damit sich die boxränder nicht verschieben (fast für jede 
+Site anwendbar)*/
+
+body {
+    margin: 0;
+}
+
+
+
+/* No space btw body and header**/
+
+#header {
+    background-image: url(design1_image1.jpeg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+}
+
+#header h1 {
+    color: white;
+    font-size: 40px;
+    margin-left: 15px;
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 0;
+    padding: 15px;
+}
+
+
+/* mit negative Margin das Überlappen erzeugen*/
+
+#logo {
+    float: right;
+    width: 100px;
+    margin-right: 80px;
+    margin-top: -100px;
+}
+
+
+#nav {
+    list-style: none;
+}
+
+
+
+#container {
+    display: flex;
+}
+
+h2 {
+    font-size: 16px; 
+
+    /*Wie stellt man ein, dass es unbold
+    ist für home aber bold für about?*/
+}
+
+aside {
+    margin-right: 100px; //* wie bringt man die Schrift auf eine Linie?*/
+}
+
+p {
+    padding-left: 30px;
+}
+
+li {
+
+    padding-bottom: 40px;
+    color: blue;
+}
+
+#link {
+    border-bottom: 1px, blue /*Wie unterstreicht man?*/
+}
